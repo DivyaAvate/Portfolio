@@ -1,7 +1,7 @@
 import { Menu, Moon, Sun } from 'lucide-react';
 import { useState } from 'react';
 
-const links = ['Home', 'About', 'Services', 'Skills', 'Experience', 'Projects', 'Achievements', 'Testimonials', 'Contact'];
+const links = ['Home', 'About', 'Services', 'Skills', 'Experience', 'Projects', 'Achievements', 'Languages', 'Testimonials', 'Contact'];
 
 export default function Navbar({ darkMode, setDarkMode }) {
   const [open, setOpen] = useState(false);

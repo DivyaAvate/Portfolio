@@ -1,65 +1,131 @@
+export const developer = {
+  name: 'AVATE DIVYA MAHESH',
+  title: 'Full Stack Developer | Java (Spring Boot) | React.js | REST APIs',
+  tagline: 'Building scalable backend systems and modern full stack applications',
+  availability: 'Available for Freelance Work',
+  contact: {
+    phone: '+91 7620022754',
+    email: 'divyaaute06@gmail.com',
+    linkedin: 'https://linkedin.com/in/divya-avate-21a946282',
+    github: 'https://github.com/DivyaAvate',
+    whatsapp: 'https://wa.me/917620022754',
+  },
+};
+
+export const about = {
+  summary:
+    'Results-driven Full Stack Developer with strong expertise in building scalable web applications across frontend and backend technologies. Proficient in Java (Spring Boot, Spring MVC), React.js, Node.js, and PHP (Laravel), with hands-on experience in designing RESTful APIs and complex backend systems.',
+  personal: 'I enjoy solving complex backend problems and building efficient systems.',
+};
+
 export const services = [
   {
-    title: 'Backend Development (Java + Spring Boot)',
-    problem: 'Need secure, scalable backend systems that can grow with product demand.',
+    title: 'Backend Development (Java, Spring Boot)',
+    description: 'Design and build secure, scalable backend systems with clean architecture and reliable integrations.',
     tech: ['Java', 'Spring Boot', 'MySQL'],
   },
   {
     title: 'Full Stack Web Development',
-    problem: 'Need complete products delivered quickly without hiring multiple specialists.',
-    tech: ['React', 'Node.js', 'MongoDB'],
+    description: 'Deliver complete web applications from UI to API with responsive interfaces and robust business logic.',
+    tech: ['React.js', 'Node.js', 'MongoDB'],
   },
   {
-    title: 'REST API Development & Integration',
-    problem: 'Need reliable APIs that connect apps, payment tools, and third-party services.',
-    tech: ['REST APIs', 'Postman', 'Express'],
+    title: 'REST API Development',
+    description: 'Develop and integrate high-performance REST APIs for web, mobile, and third-party service connectivity.',
+    tech: ['REST APIs', 'Express.js', 'Postman'],
   },
   {
-    title: 'Bug Fixing & Performance Optimization',
-    problem: 'Slow or unstable apps reduce customer trust and conversions.',
+    title: 'Performance Optimization & Bug Fixing',
+    description: 'Resolve complex production issues, optimize data flows, and improve end-user experience and speed.',
     tech: ['Profiling', 'Refactoring', 'Testing'],
   },
 ];
 
 export const skills = {
-  Frontend: ['React.js', 'JavaScript', 'HTML', 'CSS'],
-  Backend: ['Java', 'Spring Boot', 'Node.js', 'PHP (Laravel)'],
-  Database: ['MySQL', 'MongoDB', 'PostgreSQL'],
-  Tools: ['Git', 'GitHub', 'Postman', 'VS Code'],
+  Frontend: ['React.js', 'TypeScript', 'JavaScript', 'HTML', 'CSS', 'Redux', 'jQuery', 'AJAX'],
+  Backend: ['Java', 'Spring Boot', 'Spring MVC', 'Node.js', 'Express.js', 'PHP (Laravel, CodeIgniter)'],
+  Databases: ['MySQL', 'MongoDB', 'PostgreSQL'],
+  Tools: ['Git', 'GitHub', 'Maven', 'Gradle', 'Postman', 'VS Code', 'IntelliJ IDEA', 'CyberPanel'],
+  Concepts: ['MVC', 'REST APIs', 'Service-Repository Pattern', 'OOP', 'DSA', 'CI/CD'],
 };
+
+export const experience = [
+  {
+    role: 'Full Stack Developer',
+    company: 'Online Munim Software Pvt. Ltd.',
+    duration: 'July 2025 – Present',
+    highlights: ['ERP module development', 'REST API & DB design', 'Financial workflow systems', 'Performance optimization', 'Agile development'],
+  },
+  {
+    role: 'React.js Developer Intern',
+    company: 'Gravimind Technologies',
+    duration: '6 Months',
+    highlights: ['Component-based UI development', 'API integration', 'Improved dev efficiency by 25%'],
+  },
+];
 
 export const projects = [
   {
     name: 'QuizMania',
-    problem: 'Need for dynamic quiz system',
-    solution: 'Built with Spring Boot + REST APIs',
-    features: ['Timed quizzes', 'Auto scoring'],
-    impact: 'Clean architecture and scalable backend design.',
-    stack: ['Spring Boot', 'Java', 'REST API'],
+    problem: 'Need for a robust quiz platform capable of handling dynamic assessments and user progress.',
+    solution: 'Built a full-stack quiz platform with Java Spring Boot and MySQL.',
+    features: ['Timed quiz', 'Auto evaluation', 'User dashboards'],
+    impact: 'Delivered scalable quiz workflows with clean backend architecture.',
+    stack: ['Java', 'Spring Boot', 'MySQL'],
+    github: '#',
+    demo: '#',
+  },
+  {
+    name: 'Organic Farms',
+    problem: 'Traditional order workflows reduced speed and visibility for online buyers.',
+    solution: 'Developed a MERN e-commerce system with secure login and admin capabilities.',
+    features: ['JWT authentication', 'Order pipeline', 'Admin controls'],
+    impact: 'Improved order efficiency by 40%.',
+    stack: ['MongoDB', 'Express', 'React', 'Node.js'],
     github: '#',
     demo: '#',
   },
   {
     name: 'Online Munim ERP',
-    problem: 'Complex financial tracking',
-    solution: 'Developed Laravel + MySQL ERP modules',
-    features: ['Expense tracking', 'API integration'],
-    impact: 'Improved workflow efficiency across teams.',
-    stack: ['Laravel', 'MySQL', 'PHP'],
+    problem: 'Financial tracking required better control over validations and transactional flow.',
+    solution: 'Implemented Laravel + MySQL based ERP modules for expense and transaction management.',
+    features: ['Expense & transaction systems', 'Financial validation logic', 'Reporting modules'],
+    impact: 'Improved financial reliability and workflow consistency.',
+    stack: ['Laravel', 'MySQL'],
     github: '#',
     demo: '#',
   },
   {
-    name: 'Organic Farms Website',
-    problem: 'Online product selling system',
-    solution: 'Built a MERN stack e-commerce app',
-    features: ['Authentication', 'Admin panel'],
-    impact: 'Delivered complete full-stack implementation.',
-    stack: ['MongoDB', 'Express', 'React', 'Node.js'],
+    name: 'MLM Platforms',
+    problem: 'Large MLM systems needed accurate commission distribution and scalable payout logic.',
+    solution: 'Developed and optimized 10+ MLM systems with advanced compensation plans.',
+    features: ['Binary, Generation, Hybrid plans', 'Commission engine', 'Payout automation logic'],
+    impact: 'Optimized performance for large datasets and complex payout cycles.',
+    stack: ['Laravel', 'CodeIgniter', 'MySQL'],
+    github: '#',
+    demo: '#',
+  },
+  {
+    name: 'Feedback System',
+    problem: 'Manual release processes slowed down update delivery and increased deployment risks.',
+    solution: 'Created an MVC-based feedback platform with automated CI/CD deployment flows.',
+    features: ['MVC architecture', 'GitHub Actions pipeline', 'Deployment automation'],
+    impact: 'Reduced delivery friction and improved release consistency.',
+    stack: ['Laravel', 'CI/CD'],
     github: '#',
     demo: '#',
   },
 ];
+
+export const achievements = [
+  'Core Java & React Certification',
+  'Excellence Award',
+  'Avishkar Competition',
+  'Poster Presentation',
+  'C Certification',
+];
+
+export const languages = ['English (Fluent)', 'Hindi (Fluent)', 'Marathi (Native)'];
 
 export const testimonials = [
   {
